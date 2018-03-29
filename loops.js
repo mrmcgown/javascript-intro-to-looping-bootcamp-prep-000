@@ -10,19 +10,19 @@ for (var i = 0; i < 25; i++) {
 function whileLoop(n) {
   let countdown = n;
   while (countdown > 0) {
-    console.log(--countdown)
+    console.log(--countdown);
   }
-  return "done"
+  return "done";
 }
 
 function maybeTrue() {
-  return Math.random() >= 0.5
+  return Math.random() >= 0.5;
 }
 
 function doWhileLoop(array) {
   do {
-    array.length --
+    array.length --;
     } 
   while (array.length > 0 && maybeTrue());
-  return array
+  return array;
 }
