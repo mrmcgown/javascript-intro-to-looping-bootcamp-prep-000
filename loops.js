@@ -15,11 +15,14 @@ function whileLoop(n) {
   return "done"
 }
 
-function doWhileLoop(array) {
-  o {
-    ;
-    } array.length > 0 && maybeTrue()
-  while (function maybeTrue() {
+function maybeTrue() {
   return Math.random() >= 0.5
-}) return array
+}
+
+function doWhileLoop(array) {
+  do {
+    --array.length
+    } 
+  while (array.length > 0 && maybeTrue());
+  return array
 }
