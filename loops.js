@@ -1,6 +1,6 @@
 function forLoop(array) {
 for (var i = 0; i < 25; i++) {
-  if(array === 1) {
+  if(i === 1) {
     console.log("I am ${i} strange loop.");
 } else {
   console.log("I am ${i} strange loops.");
@@ -8,5 +8,8 @@ for (var i = 0; i < 25; i++) {
 }}
 
 function whileLoop(n) {
-  while ()
+  let countdown = n;
+  while (countdown > 0) {
+    console.log(-- countdown)
+  }
 }
