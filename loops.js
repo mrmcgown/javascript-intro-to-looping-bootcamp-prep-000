@@ -5,7 +5,9 @@ for (var i = 0; i < 25; i++) {
 } else {
   console.log("I am ${i} strange loops.");
 }
-}}
+}
+  return array
+}
 
 function whileLoop(n) {
   let countdown = n;
